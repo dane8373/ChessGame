@@ -1,0 +1,4 @@
+#Thu May 24 22:47:13 CDT 2018
+base.0=C\:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\50
+path.0=classes.dex
+renamed.0=classes.dex
