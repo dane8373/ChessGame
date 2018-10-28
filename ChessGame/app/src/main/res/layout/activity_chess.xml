@@ -9,621 +9,638 @@
     android:background="#FFA500"
     android:id="@+id/frame"
     tools:context=".ChessActivity" >
-    
+
 	<LinearLayout
-	    android:contentDescription="@string/table_description"
-	    android:id="@+id/table_1"
-	    android:layout_width="288dp"
-	    android:layout_height="match_parent"
-	    android:orientation="vertical"
-	    android:layout_centerHorizontal="true">
-	  		
+		android:id="@+id/table_1"
+		android:layout_width="288dp"
+		android:layout_height="match_parent"
+		android:layout_centerInParent="true"
+		android:contentDescription="@string/table_description"
+		android:orientation="vertical">
+
 		<LinearLayout
 			android:id="@+id/row_0"
+			android:layout_width="match_parent"
+			android:layout_height="36dp"
 			android:contentDescription="@string/row_description"
-	    	android:layout_width="match_parent"
-	    	android:layout_height="36dp"
-	    	android:weightSum="8"
-	    	android:orientation="horizontal">
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row0_sq0"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_rook_white" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row0_sq1"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_knight_grey" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"
-				    android:id="@+id/row0_sq2"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_bishop_white" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row0_sq3"
-				 	android:layout_weight="1"
-				    android:src="@drawable/black_queen_grey" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row0_sq4"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_king_white"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row0_sq5"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_bishop_grey"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row0_sq6"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_knight_white" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row0_sq7"
-				 	android:layout_weight="1"
-				    android:src="@drawable/black_rook_grey"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-			
-			</LinearLayout>
-			
-			<LinearLayout
-			android:contentDescription="@string/row_description"
+			android:orientation="horizontal"
+			android:weightSum="8">
+
+			<ImageView
+				android:id="@+id/row0_sq0"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_rook_white" />
+
+			<ImageView
+				android:id="@+id/row0_sq1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_knight_grey" />
+
+			<ImageView
+				android:id="@+id/row0_sq2"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_bishop_white" />
+
+			<ImageView
+				android:id="@+id/row0_sq3"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_queen_grey" />
+
+			<ImageView
+				android:id="@+id/row0_sq4"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_king_white" />
+
+			<ImageView
+				android:id="@+id/row0_sq5"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_bishop_grey" />
+
+			<ImageView
+				android:id="@+id/row0_sq6"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_knight_white" />
+
+			<ImageView
+				android:id="@+id/row0_sq7"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_rook_grey" />
+
+		</LinearLayout>
+
+		<LinearLayout
 			android:id="@+id/row_1"
-	    	android:layout_width="match_parent"
-	    	android:layout_height="36dp"
-	    	android:weightSum="8"
-	    	android:orientation="horizontal">
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row1_sq0"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_pawn_grey" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row1_sq1"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_pawn_white" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row1_sq2"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_pawn_grey"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row1_sq3"
-				 	android:layout_weight="1"
-				    android:src="@drawable/black_pawn_white" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row1_sq4"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_pawn_grey"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row1_sq5"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_pawn_white" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row1_sq6"
-				    android:layout_weight="1"
-				    android:src="@drawable/black_pawn_grey" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row1_sq7"
-				 	android:layout_weight="1"
-				    android:src="@drawable/black_pawn_white"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-			
-			</LinearLayout>
-
-			<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="36dp"
 			android:contentDescription="@string/row_description"
+			android:orientation="horizontal"
+			android:weightSum="8">
+
+			<ImageView
+				android:id="@+id/row1_sq0"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_pawn_grey" />
+
+			<ImageView
+				android:id="@+id/row1_sq1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_pawn_white" />
+
+			<ImageView
+				android:id="@+id/row1_sq2"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_pawn_grey" />
+
+			<ImageView
+				android:id="@+id/row1_sq3"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_pawn_white" />
+
+			<ImageView
+				android:id="@+id/row1_sq4"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_pawn_grey" />
+
+			<ImageView
+				android:id="@+id/row1_sq5"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_pawn_white" />
+
+			<ImageView
+				android:id="@+id/row1_sq6"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_pawn_grey" />
+
+			<ImageView
+				android:id="@+id/row1_sq7"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/black_pawn_white" />
+
+		</LinearLayout>
+
+		<LinearLayout
 			android:id="@+id/row_2"
-	    	android:layout_width="match_parent"
-	    	android:layout_height="36dp"
-	    	android:weightSum="8"
-	    	android:orientation="horizontal">
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row2_sq0"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row2_sq1"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row2_sq2"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row2_sq3"
-				 	android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row2_sq4"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row2_sq5"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row2_sq6"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row2_sq7"
-				 	android:layout_weight="1"
-				    android:src="@drawable/grey_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-			
-			</LinearLayout>
-		 	
-		 	<LinearLayout
-		 	android:contentDescription="@string/row_description"
-			android:id="@+id/row_3"
-	    	android:layout_width="match_parent"
-	    	android:layout_height="36dp"
-	    	android:weightSum="8"
-	    	android:orientation="horizontal">
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row3_sq0"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row3_sq1"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-			
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row3_sq2"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row3_sq3"
-				 	android:layout_weight="1"
-				    android:src="@drawable/white_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row3_sq4"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row3_sq5"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row3_sq6"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row3_sq7"
-				 	android:layout_weight="1"
-				    android:src="@drawable/white_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-			
-			</LinearLayout>
-			
-			<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="36dp"
 			android:contentDescription="@string/row_description"
-			android:id="@+id/row_4"
-	    	android:layout_width="match_parent"
-	    	android:layout_height="36dp"
-	    	android:weightSum="8"
-	    	android:orientation="horizontal">
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row4_sq0"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row4_sq1"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row4_sq2"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row4_sq3"
-				 	android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row4_sq4"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row4_sq5"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row4_sq6"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row4_sq7"
-				 	android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-			
-			</LinearLayout>
-			
-			
-			<LinearLayout
-			android:contentDescription="@string/row_description"
-			android:id="@+id/row_5"
-	    	android:layout_width="match_parent"
-	    	android:layout_height="36dp"
-	    	android:weightSum="8"
-	    	android:orientation="horizontal">
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row5_sq0"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row5_sq1"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-			
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row5_sq2"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row5_sq3"
-				 	android:layout_weight="1"
-				    android:src="@drawable/white_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row5_sq4"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row5_sq5"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_square"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row5_sq6"
-				    android:layout_weight="1"
-				    android:src="@drawable/grey_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row5_sq7"
-				 	android:layout_weight="1"
-				    android:src="@drawable/white_square" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-			
-			</LinearLayout>
-			<LinearLayout
-			android:contentDescription="@string/row_description"
-			android:id="@+id/row_6"
-	    	android:layout_width="match_parent"
-	    	android:layout_height="36dp"
-	    	android:weightSum="8"
-	    	android:orientation="horizontal">
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row6_sq0"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_pawn_white" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row6_sq1"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_pawn_grey" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row6_sq2"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_pawn_white"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row6_sq3"
-				 	android:layout_weight="1"
-				    android:src="@drawable/white_pawn_grey" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row6_sq4"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_pawn_white"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row6_sq5"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_pawn_grey" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row6_sq6"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_pawn_white" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row6_sq7"
-				 	android:layout_weight="1"
-				    android:src="@drawable/white_pawn_grey"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-			
-			</LinearLayout>
-			
-			<LinearLayout
-			android:contentDescription="@string/row_description"		
-			android:id="@+id/row_7"
-	    	android:layout_width="match_parent"
-	    	android:layout_height="36dp"
-	    	android:weightSum="8"
-	    	android:orientation="horizontal">
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row7_sq0"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_rook_grey" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row7_sq1"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_knight_white" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"
-				    android:id="@+id/row7_sq2"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_bishop_grey" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row7_sq3"
-				 	android:layout_weight="1"
-				    android:src="@drawable/white_queen_white" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row7_sq4"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_king_grey"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row7_sq5"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_bishop_white"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row7_sq6"
-				    android:layout_weight="1"
-				    android:src="@drawable/white_knight_grey" 
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent"/>
-				
-				<ImageView
-				    android:contentDescription="@string/square_description"
-				    android:id="@+id/row7_sq7"
-				 	android:layout_weight="1"
-				    android:src="@drawable/white_rook_white"
-				    android:layout_width="0dp"
-	    			android:layout_height="match_parent" />
-			
-			</LinearLayout>
+			android:orientation="horizontal"
+			android:weightSum="8">
 
-			<TextView
-			    android:id="@+id/turn"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content"
-			    android:text="White&apos;s Turn" />
+			<ImageView
+				android:id="@+id/row2_sq0"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row2_sq1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row2_sq2"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row2_sq3"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row2_sq4"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row2_sq5"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row2_sq6"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row2_sq7"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/row_3"
+			android:layout_width="match_parent"
+			android:layout_height="36dp"
+			android:contentDescription="@string/row_description"
+			android:orientation="horizontal"
+			android:weightSum="8">
+
+			<ImageView
+				android:id="@+id/row3_sq0"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row3_sq1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row3_sq2"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row3_sq3"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row3_sq4"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row3_sq5"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row3_sq6"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row3_sq7"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/row_4"
+			android:layout_width="match_parent"
+			android:layout_height="36dp"
+			android:contentDescription="@string/row_description"
+			android:orientation="horizontal"
+			android:weightSum="8">
+
+			<ImageView
+				android:id="@+id/row4_sq0"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row4_sq1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row4_sq2"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row4_sq3"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row4_sq4"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row4_sq5"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row4_sq6"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row4_sq7"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:id="@+id/row_5"
+			android:layout_width="match_parent"
+			android:layout_height="36dp"
+			android:contentDescription="@string/row_description"
+			android:orientation="horizontal"
+			android:weightSum="8">
+
+			<ImageView
+				android:id="@+id/row5_sq0"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row5_sq1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row5_sq2"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row5_sq3"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row5_sq4"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row5_sq5"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+			<ImageView
+				android:id="@+id/row5_sq6"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/grey_square" />
+
+			<ImageView
+				android:id="@+id/row5_sq7"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_square" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/row_6"
+			android:layout_width="match_parent"
+			android:layout_height="36dp"
+			android:contentDescription="@string/row_description"
+			android:orientation="horizontal"
+			android:weightSum="8">
+
+			<ImageView
+				android:id="@+id/row6_sq0"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_pawn_white" />
+
+			<ImageView
+				android:id="@+id/row6_sq1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_pawn_grey" />
+
+			<ImageView
+				android:id="@+id/row6_sq2"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_pawn_white" />
+
+			<ImageView
+				android:id="@+id/row6_sq3"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_pawn_grey" />
+
+			<ImageView
+				android:id="@+id/row6_sq4"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_pawn_white" />
+
+			<ImageView
+				android:id="@+id/row6_sq5"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_pawn_grey" />
+
+			<ImageView
+				android:id="@+id/row6_sq6"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_pawn_white" />
+
+			<ImageView
+				android:id="@+id/row6_sq7"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_pawn_grey" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/row_7"
+			android:layout_width="match_parent"
+			android:layout_height="36dp"
+			android:contentDescription="@string/row_description"
+			android:orientation="horizontal"
+			android:weightSum="8">
+
+			<ImageView
+				android:id="@+id/row7_sq0"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_rook_grey" />
+
+			<ImageView
+				android:id="@+id/row7_sq1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_knight_white" />
+
+			<ImageView
+				android:id="@+id/row7_sq2"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_bishop_grey" />
+
+			<ImageView
+				android:id="@+id/row7_sq3"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_queen_white" />
+
+			<ImageView
+				android:id="@+id/row7_sq4"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_king_grey" />
+
+			<ImageView
+				android:id="@+id/row7_sq5"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_bishop_white" />
+
+			<ImageView
+				android:id="@+id/row7_sq6"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_knight_grey" />
+
+			<ImageView
+				android:id="@+id/row7_sq7"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:contentDescription="@string/square_description"
+				android:src="@drawable/white_rook_white" />
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/turn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="White&apos;s Turn" />
 
 	</LinearLayout>
-	    
+
 	<Button
-	    android:id="@+id/submit"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentBottom="true"
-	    android:layout_centerHorizontal="true"
-	    android:text="Submit Move" />
-	
+		android:id="@+id/submit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="42dp"
+		android:layout_marginLeft="42dp"
+		android:layout_marginBottom="37dp"
+		android:text="Submit Move" />
+
+	<Button
+		android:id="@+id/cancel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginEnd="46dp"
+		android:layout_marginRight="46dp"
+		android:layout_marginBottom="37dp"
+		android:text="Cancel Move" />
+
 </RelativeLayout>
