@@ -113,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_chess.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_chess.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chess.xml">
           <provider editor-type-id="text-editor">
             <state />
@@ -139,7 +139,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquareListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SquareListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/chessgame/SquareListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -2547,11 +2547,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/Rook.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/King.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/ChessBoard.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chess.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/CancelListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/SubmitListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/SquareListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/ChessActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chess.xml" />
       </list>
     </option>
   </component>
@@ -2962,14 +2962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chess.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/chessgame/SubmitListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
@@ -3039,6 +3031,14 @@
             <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chess.xml">
+      <provider editor-type-id="text-editor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

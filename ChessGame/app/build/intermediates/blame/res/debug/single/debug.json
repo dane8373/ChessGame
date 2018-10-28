@@ -24,12 +24,12 @@
         "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/debug/drawable-hdpi_white_bishop_green.bmp.flat",
-        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_bishop_green.bmp"
-    },
-    {
         "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/debug/drawable-hdpi_white_pawn_white.bmp.flat",
         "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_pawn_white.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/debug/drawable-hdpi_white_bishop_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_bishop_green.bmp"
     },
     {
         "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/debug/drawable-hdpi_black_rook_white.bmp.flat",

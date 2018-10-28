@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Oct 28 01:42:53 CDT 2018
+#Sun Oct 28 01:59:22 CDT 2018
 0.baseType=DIRECTORY
 0.base=/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex
