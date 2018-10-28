@@ -1,35 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "outputFile": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "191,522",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "481,679"
-                    },
-                    "to": {
-                        "startLines": "10,17",
-                        "startColumns": "4,4",
-                        "startOffsets": "525,816",
-                        "endLines": "16,19",
-                        "endColumns": "12,12",
-                        "endOffsets": "811,971"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "4,3,5,7,6,8",
                         "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "106,58,160,280,213,341",
+                        "startOffsets": "103,56,156,276,209,337",
                         "endColumns": "52,46,52,60,66,74",
-                        "endOffsets": "154,100,208,336,275,411"
+                        "endOffsets": "151,98,204,332,271,407"
                     },
                     "to": {
                         "startLines": "4,5,6,7,8,9",
@@ -40,13 +21,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/values/dimens.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
-                        "startOffsets": "92,151",
+                        "startOffsets": "89,147",
                         "endColumns": "57,55",
-                        "endOffsets": "145,202"
+                        "endOffsets": "142,198"
                     },
                     "to": {
                         "startLines": "2,3",
@@ -54,6 +35,25 @@
                         "startOffsets": "55,113",
                         "endColumns": "57,55",
                         "endOffsets": "108,164"
+                    }
+                },
+                {
+                    "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
+                    },
+                    "to": {
+                        "startLines": "10,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "525,816",
+                        "endLines": "16,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "811,971"
                     }
                 }
             ]

@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Thu May 24 22:53:16 CDT 2018
+#Sun Oct 28 01:47:25 CDT 2018
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.base=/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/transforms/dexMerger/release/0
 0.path=classes.dex
 0.set=DEX
 count=1

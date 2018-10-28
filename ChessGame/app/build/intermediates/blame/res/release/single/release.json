@@ -1,186 +1,238 @@
 [
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_bishop_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_bishop_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_bishop_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_bishop_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_knight_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_knight_white.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_rook_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_rook_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_rook_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_rook_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_queen_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_queen_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/menu_chess.xml.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/menu/chess.xml"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_pawn_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_pawn_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/layout_activity_chess.xml.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/layout/activity_chess.xml"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_rook_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_rook_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_bishop_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_bishop_white.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_pawn_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_pawn_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_queen_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_queen_red.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_grey_square.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\grey_square.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_knight_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_knight_red.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_pawn_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_pawn_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_king_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_king_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_queen_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_queen_white.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_rook_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_rook_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_knight_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_knight_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_queen_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_queen_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_bishop_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_bishop_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_chess.xml.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\layout\\activity_chess.xml"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_pawn_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_pawn_red.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_king_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_king_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_red_square.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/red_square.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_queen_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_queen_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_king_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_king_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_knight_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_knight_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_pawn_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_pawn_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_pawn_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_pawn_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_square.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_square.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_knight_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_knight_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_pawn_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_pawn_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_bishop_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_bishop_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_queen_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_queen_red.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_bishop_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_bishop_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_king_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_king_red.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_king_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_king_red.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_king_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_king_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_bishop_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_bishop_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_knight_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_knight_white.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\menu_chess.xml.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\menu\\chess.xml"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_pawn_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_pawn_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_bishop_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_bishop_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_king_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_king_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_queen_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_queen_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_rook_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_rook_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_queen_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_queen_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_knight_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_knight_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_knight_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_knight_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_queen_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_queen_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_knight_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_knight_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_rook_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_rook_white.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_pawn_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_pawn_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_knight_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_knight_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_pawn_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_pawn_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_bishop_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_bishop_red.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_square.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_square.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_red_square.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\red_square.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_king_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_king_white.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\layout_main_menu.xml.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\layout\\main_menu.xml"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_rook_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_rook_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_king_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_king_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_knight_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_knight_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_knight_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_knight_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_rook_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_rook_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_rook_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_rook_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_queen_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_queen_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_rook_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_rook_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_king_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_king_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_king_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_king_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_queen_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_queen_grey.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_knight_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_knight_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_bishop_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_bishop_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_knight_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_knight_red.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_rook_red.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_rook_red.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_bishop_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_bishop_green.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_white_king_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\white_king_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_pawn_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_pawn_white.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_pawn_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_pawn_red.bmp"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_queen_white.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_queen_white.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/layout_main_menu.xml.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/layout/main_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_black_bishop_grey.bmp.flat",
-        "source": "C:\\Users\\Dane Zieman\\StudioProjects\\ChessGame\\app\\src\\main\\res\\drawable-hdpi\\black_bishop_grey.bmp"
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_rook_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_rook_red.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_bishop_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_bishop_red.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_king_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_king_white.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_rook_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_rook_white.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_king_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_king_green.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_green_square.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/green_square.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_rook_red.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_rook_red.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_queen_grey.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_queen_grey.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_black_pawn_green.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/black_pawn_green.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_bishop_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_bishop_white.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_grey_square.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/grey_square.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_pawn_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_pawn_white.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-hdpi_white_queen_white.bmp.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-hdpi/white_queen_white.bmp"
+    },
+    {
+        "merged": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/dane/Documents/new_chess/ChessGame/ChessGame/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     }
 ]
