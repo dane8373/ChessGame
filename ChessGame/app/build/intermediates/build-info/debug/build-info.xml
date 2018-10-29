@@ -5,43 +5,44 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.1"
-    timestamp="1540710316709"
+    timestamp="1540775926001"
     token="-69186778916586242"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="295" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="82" />
     <task
         name="verifier"
-        duration="0" />
+        duration="15" />
 
     <artifact
         location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
     <artifact
-        location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1540703495167"
+        timestamp="1540775242158"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
         <artifact
             location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -76,22 +77,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1540708824212"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1540710316709"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1540775926001"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/home/dane/Documents/new_chess/ChessGame/ChessGame/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

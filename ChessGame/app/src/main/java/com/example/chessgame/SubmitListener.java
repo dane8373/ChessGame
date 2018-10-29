@@ -76,6 +76,17 @@ public class SubmitListener implements View.OnClickListener {
         }
         if (movePiece.isValidMove(endRow, endCol)) {
             if (!theBoard.moveIntoCheck(movePiece, endRow, endCol)) {
+                if (movePiece instanceof Pawn) {
+                    if (movePiece.getColor() == WHITE) {
+                        if (endRow == 0) {
+                            promotion.show();
+                        }
+                    }
+                    else
+                    if (endRow == 7) {
+                        promotion.show();
+                    }
+                }
                 theBoard.pawnChecker(theBoard.getTurn());
                 if (movePiece instanceof Pawn && (endRow - movePiece.getRow()) % 2 == 0) {
                     movePiece.specialMove(2);
@@ -92,17 +103,6 @@ public class SubmitListener implements View.OnClickListener {
                 theBoard.movePiece(movePiece, endRow, endCol);
             }
         }
-        if (movePiece instanceof Pawn) {
-            if (movePiece.getColor() == WHITE) {
-                if (endRow == 0) {
-                    promotion.show();
-                }
-            }
-            else
-                if (endRow == 7) {
-                    promotion.show();
-                }
-            }
         if (theBoard.isCheck(theBoard.getTurn())) {
             if (theBoard.weakCheckmate(theBoard.getTurn())) {
                 if (theBoard.isCheckmate(theBoard.getTurn())) {

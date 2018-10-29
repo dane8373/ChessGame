@@ -406,9 +406,10 @@ public class ChessBoard {
                 col = i;
             }
         }
+        int index = findListIndex(row,col);
         Piece p = pieceAt[row][col];
 	    int color = p.getColor();
-        removePieceAt(SquareListener.getEndRow(), SquareListener.getEndCol());
+        removePieceAt(row, col);
         Piece newPiece = null;
         if (type.equalsIgnoreCase("Knight")) {
             newPiece = new Knight(color, row, col, square[row][col], this);
@@ -422,7 +423,7 @@ public class ChessBoard {
         else if (type.equalsIgnoreCase("Rook")) {
             newPiece = new Rook(color, row, col, square[row][col], this);
         }
-        placePiece(SquareListener.getEndRow(), SquareListener.getEndCol(), newPiece);
+        placePiece(row, col, newPiece);
     }
 	
 	public Boolean pieceAt(int row, int column){
