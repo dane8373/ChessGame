@@ -30,8 +30,8 @@
             <file leaf-file-name="ChessBoard.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/chessgame/ChessBoard.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="798">
-                    <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+                  <state relative-caret-position="-1999">
+                    <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
                     <folding>
                       <element signature="imports" expanded="true" />
                       <element signature="e#8992#8993#0" expanded="true" />
@@ -125,8 +125,8 @@
       <file leaf-file-name="SubmitListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/chessgame/SubmitListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+            <state relative-caret-position="627">
+              <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#915#1580#0" expanded="true" />
@@ -2505,11 +2505,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/CancelListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/SquareListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/ChessActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/SubmitListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chess.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main_menu.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/ChessBoard.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/chessgame/SubmitListener.java" />
       </list>
     </option>
   </component>
@@ -3002,8 +3002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/chessgame/ChessBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+        <state relative-caret-position="-1999">
+          <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#8992#8993#0" expanded="true" />
@@ -3018,8 +3018,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/chessgame/SubmitListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        <state relative-caret-position="627">
+          <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#915#1580#0" expanded="true" />

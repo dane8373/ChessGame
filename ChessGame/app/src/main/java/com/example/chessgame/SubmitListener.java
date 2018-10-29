@@ -110,15 +110,17 @@ public class SubmitListener implements View.OnClickListener {
                     if (theBoard.getTurn() == BLACK) {
                         Toast.makeText(theContext, "Checkmate, White wins", Toast.LENGTH_LONG).show();
                         turn.setText("White has won");
+                        return;
                     }
                     else {
                         Toast.makeText(theContext, "Checkmate, black wins", Toast.LENGTH_LONG).show();
                         turn.setText("Black has won");
+                        return;
                     }
                 }
                 theBoard.resetBoardColors();
             }
-            else if (theBoard.getTurn() == BLACK) {
+            if (theBoard.getTurn() == BLACK) {
                 Toast.makeText(theContext, "Black is in check", Toast.LENGTH_LONG).show();
             }
             else {
@@ -129,9 +131,19 @@ public class SubmitListener implements View.OnClickListener {
             theBoard.resetBoardColors();
             SquareListener.clearMove();
             if (theBoard.getTurn() == BLACK) {
-                turn.setText("Black's Turn");
+                if (theBoard.isCheck(BLACK)) {
+                    turn.setText("Black's Turn (Black is in Check)");
+                }
+                else {
+                    turn.setText("Black's Turn");
+                }
             } else {
-                turn.setText("White's Turn");
+                if (theBoard.isCheck(WHITE)) {
+                    turn.setText("White's Turn (White is in Check)");
+                }
+                else {
+                    turn.setText("White's Turn");
+                }
             }
         }
     }
