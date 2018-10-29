@@ -87,11 +87,15 @@ public class ChessBoard {
     }
 
     public int findListIndex(int row, int col) {
-	    for (int i=0; i<whitePieces.size(); i++) {
-	        if (whitePieces.get(i).getRow() == row && whitePieces.get(i).getCol() == col) {
+        List<Piece> safeBlackPieces = Collections.synchronizedList(blackPieces);
+        List<Piece> safeWhitePieces = Collections.synchronizedList(whitePieces);
+	    for (int i=0; i<safeWhitePieces.size(); i++) {
+	        if (safeWhitePieces.get(i).getRow() == row && safeWhitePieces.get(i).getCol() == col) {
 	            return i;
             }
-            if (blackPieces.get(i).getRow() == row && blackPieces.get(i).getCol() == col) {
+        }
+        for (int i=0; i<safeBlackPieces.size(); i++) {
+            if (safeBlackPieces.get(i).getRow() == row && safeBlackPieces.get(i).getCol() == col) {
                 return i;
             }
         }
