@@ -110,11 +110,13 @@ public class SubmitListener implements View.OnClickListener {
                     if (theBoard.getTurn() == BLACK) {
                         Toast.makeText(theContext, "Checkmate, White wins", Toast.LENGTH_LONG).show();
                         turn.setText("White has won");
+                        theBoard.resetBoardColors();
                         return;
                     }
                     else {
                         Toast.makeText(theContext, "Checkmate, black wins", Toast.LENGTH_LONG).show();
                         turn.setText("Black has won");
+                        theBoard.resetBoardColors();
                         return;
                     }
                 }
